@@ -6,15 +6,16 @@
     <title>Portifolho</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="" type="image/x-icon">
+        <link rel="shortcut icon" href="./img/image-removebg-preview.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        
 </head>
 
 <body>
-    <nav class="navbar col-12 position-fixed navbar-expand-lg bg-body-tertiary " style="z-index: 999;">
+    <nav data-bs-theme="dark" class="navbar col-12 position-fixed navbar-expand-lg bg-body-tertiary bg-dark" style="z-index: 999;">
         <div class="container-fluid col-11 me-auto">
 
           <a class="navbar-brand" href="#">BK</a>
@@ -24,7 +25,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">T.I</a>
+                <a class="nav-link"  href="#">T.I</a>
               </li>
               <a class="nav-link" href="#">Ciências Humanas</a>
             </li>
@@ -32,98 +33,141 @@
         </li>
         <a class="nav-link" href="#">Matemática</a>
     </li>
-    <a class="nav-link" href="#">Linguagens</a>
-              
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
+    <a class="nav-link" href="#">Linguagens</a>      
       </nav>
-      <br><br><br>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/ciencias-humanas-e-suas-tecnologias-og.webp" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/Ciencias-da-Natureza-e-suas-tecnologias.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/MicrosoftTeams-image.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <!---->
+
+            <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+  
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/1.png" class="card-img-top"
+                                        alt="lg">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sifra de Caesar</h5>
+                                        <p class="card-text"> Foi um trabalho onde criamos um codigo que encriptava alguma mensagem sendo ela de qualquer tipo.
+                                          </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="http" 
+                                            target='_blank'
+                                                class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/2.png" class="card-img-top img-fluid w-100"
+                                        alt="ti">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Slime</h5>
+                                        <p class="card-text">Neste dia criamos um Slime no laboratório de química e observamos que o Slime é um polímero flexivel e adaptável.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https"
+                                                target='_blank' class="btn btn-outline-dark me-3"><i
+                                                    class="bi bi-github"></i></a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="./img/3.png" class="card-img-top img-fluid w-100"
+                                        alt="cn">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Debate Da ONU</h5>
+                                        <p class="card-text">Ao decorrer da semana tivemos alguns debates entre paises assim podemos formar alianças entre eles, assim firmando acordos internacionais.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https"
+                                             target='_blank'
+                                                class="btn btn-outline-dark me-3"><i class="bi bi-youtube"></i></a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+  
+                    </div>
+  
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./img/4.png" class="card-img-top img-fluid w-100"
+                                        alt="mat">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Desvio Padrão</h5>
+                                        <p class="card-text">Nas aulas de Matemática nos aprendemos oque é um desvio padrão, sabendo-se que medida de dispersão do conjunto, é uma medida que indica quão uniformes são os dados do conjunto.
+                                            </p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="http" 
+                                            target='_blank'
+                                                class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./img/TI.png" class="card-img-top img-fluid w-100"
+                                        alt="print do blog">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pixo</h5>
+                                        <p class="card-text">Nas aulas de pixo nos vimos como a cultura do hip-hop é marginalizada.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <a href="https"
+                                                target='_blank' class="btn btn-outline-dark me-3"><i
+                                                    class="bi bi-link-45deg"></i></a>        
+                                        </div>
+  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./img/mostra culturao.png" class="card-img-top img-fluid w-100"
+                                        alt="print do blog">
+                                    <div class="card-body">
+                                      <h5> Mostra cultural </h5>
+                                        <p class="card-text">Realizamos uma mostra cultural após diversoso dias de trabalhos pelos professores e alunos .
+                                            </p>
+                                        <div class="d-flex justify-content-center">
+                                            
+                                            <a href="https"
+                                                class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
+                                        </div>
+  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a short card.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-          </div>
-        </div>
-      </div>   
+  
+          
 </body>
 </html>
-
-
-
-

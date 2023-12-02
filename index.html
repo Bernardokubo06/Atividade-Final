@@ -3,171 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Fim Google Fontes-->
+    <!--bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!--Fim bootstrap icons-->
+    <!--Foto-do-site-->
+    <link rel="shortcut icon" href="img/ned img site.png" type="image/x-icon">
+    <!--fim-Da-Foto-do-site-->
+    <link rel="stylesheet" href="style.css">
     <title>Portfólio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="./img/image-removebg-preview.png" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        
 </head>
-
 <body>
-    <nav data-bs-theme="dark" class="navbar col-12 position-fixed navbar-expand-lg bg-body-tertiary bg-dark" style="z-index: 999;">
-        <div class="container-fluid col-11 me-auto">
+    
+    <Header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/teste 2.png" alt="Logo Portfólio">
+                </a>
+            </div><!--logo-->
+            
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#Esp">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Projetos</a></li>
+                </ul>
+            </nav>
 
-          <a class="navbar-brand" href="#">BK</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link"  href="#">T.I</a>
-              </li>
-              <a class="nav-link" href="#">Ciências Humanas</a>
-            </li>
-            <a class="nav-link" href="#">Ciências da Natureza</a>
-        </li>
-        <a class="nav-link" href="#">Matemática</a>
-    </li>
-    <a class="nav-link" href="#">Linguagens</a>      
-      </nav>
-    <!---->
+            <div class="btn-contato">
+                <a href="#forms">
+                    <button>Contato</button>
+                </a>
+            </div> <!--btn-contato-->>
+        </div> <!--interface-->
+    </Header>
 
-            <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-  
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./img/1.png" class="card-img-top"
-                                        alt="lg">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Sifra de Caesar</h5>
-                                        <p class="card-text"> Foi um trabalho onde criamos um codigo que encriptava alguma mensagem sendo ela de qualquer tipo.
-                                          </p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="http" 
-                                            target='_blank'
-                                                class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./img/2.png" class="card-img-top img-fluid w-100"
-                                        alt="ti">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Slime</h5>
-                                        <p class="card-text">Neste dia criamos um Slime no laboratório de química e observamos que o Slime é um polímero flexivel e adaptável.</p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="https"
-                                                target='_blank' class="btn btn-outline-dark me-3"><i
-                                                    class="bi bi-github"></i></a>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card">
-                                    <img src="./img/3.png" class="card-img-top img-fluid w-100"
-                                        alt="cn">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Debate Da ONU</h5>
-                                        <p class="card-text">Ao decorrer da semana tivemos alguns debates entre paises assim podemos formar alianças entre eles, assim firmando acordos internacionais.</p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="https"
-                                             target='_blank'
-                                                class="btn btn-outline-dark me-3"><i class="bi bi-youtube"></i></a>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="interface">
+                <dix class="flex">
+                    <div class="txt-topo-site">
+                        <h1>PORTFÓLIO DO BERNARDO PEREIRA KUBO<span>.</span></h1>
+                        <p>Este é meu Portfólio para a Atividade final de T.I do SENAC Nacoes Unidas</p>
+                        
+                        <div class="btn-contato">
+                        <a href="https://github.com/Bernardokubo06/Atividade-Final">
+                            <button>Atividade Final</button>
+                        </a>       
                         </div>
-  
+                    </div><!--txt topo site-->
+
+                    <div class="img-topo-site">
+                        <img src="img/ned img site.png" alt="">
+
+                    </div><!--img topo site-->
+                </dix><!--flex-->
+            </div><!--interface-->
+        </section><!--topo do site-->
+    
+        <section id="Esp" class="especialidades">
+            <div class="interface">
+                <h2 class="Titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code"></i>
+                        <h3>Programação</h3>
+                        <p>Tenho um conhecimento sobre java,html, e be, basico de pyton.</p>
+                    </div><!--especiialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-device-hdd"></i>
+                        <h2>Hardware</h2>
+                        <p>Possuo conhecimento sobre esta area de hardwares sei algumas coisas sobre o 
+                        funcionamente de alguns componentes</p>
+                    </div><!--especiialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-router"></i>
+                        <h2>Redes</h2>
+                        <p>Tenho um conhecimento sobre redes como lan,wan,ran 
+                        como elas funcionam e como fazer uma estrutura de cabeamentos
+                         de maneira eficaz</p>
+                    </div><!--especiialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidade-->
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/Foto m.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU BERNARDO KUBO.</span></h2>
+                        <p>Olá meu nome e Bernardo Pereira Kubo tenho 17 anos, sou aluno do 3º ano do Ensimo médio Tecnico do SENAC, antigamente eu não me interesava
+                            por Programação ou hardwares porem conforme fui cresende e vendo como essa area era muito conplexa e intrigante eu decidi que eu iria</p>
+                        <p>cursar ciências da computação
+                            para poder entrar no ramo de tecnologia como dev ou algo do genero,nestes anos de escola com o 
+                            ensimo tecnico me acendeu um desejo por essa area que eu ja vinha vendo com frequencia.</p>
+                            <div class="btn-social">
+                                <a href="https://br.linkedin.com/"><button><i class="bi bi-linkedin"></i></button></a>
+                                <a href="https://github.com/Bernardokubo06"><button><i class="bi bi-github"></i></button></a>
+                                <a href="https://www.instagram.com/iaebernak/"><button><i class="bi bi-instagram"></i></button></a>
+                            </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--felx-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="produtos" class="portfolio">
+            <div class="interface">
+                <h2 class="Titulo">AREAS <span>DO CONHECIMENTO</span></h2>
+                <div class="flex">
+
+                    <a href="https://www.twitch.tv/loud_coringa">                 
+                    <div class="img-port"style="background-image: url(img/Ti.png);">
+                        <div class="overlay" >T.I</div>
                     </div>
-  
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="row row-cols-1 row-cols-md-3 g-4">
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="./img/4.png" class="card-img-top img-fluid w-100"
-                                        alt="mat">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Desvio Padrão</h5>
-                                        <p class="card-text">Nas aulas de Matemática nos aprendemos oque é um desvio padrão, sabendo-se que medida de dispersão do conjunto, é uma medida que indica quão uniformes são os dados do conjunto.
-                                            </p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="http" 
-                                            target='_blank'
-                                                class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
-                                        </div>
-  
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="./img/TI.png" class="card-img-top img-fluid w-100"
-                                        alt="print do blog">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pixo</h5>
-                                        <p class="card-text">Nas aulas de pixo nos vimos como a cultura do hip-hop é marginalizada.</p>
-                                        <div class="d-flex justify-content-center">
-                                            <a href="https"
-                                                target='_blank' class="btn btn-outline-dark me-3"><i
-                                                    class="bi bi-link-45deg"></i></a>        
-                                        </div>
-  
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="card h-100">
-                                    <img src="./img/mostra culturao.png" class="card-img-top img-fluid w-100"
-                                        alt="print do blog">
-                                    <div class="card-body">
-                                      <h5> Mostra cultural </h5>
-                                        <p class="card-text">Realizamos uma mostra cultural após diversoso dias de trabalhos pelos professores e alunos .
-                                            </p>
-                                        <div class="d-flex justify-content-center">
-                                            
-                                            <a href="https"
-                                                class="btn btn-outline-primary"><i class="bi bi-link-45deg"></i></a>
-                                        </div>
-  
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </a>
+                <a href="https://www.twitch.tv/loud_coringa">  
+                    <div class="img-port" style="background-image: url(img/ciencias\ humanas.png);">
+                        <div class="overlay">Humanas</div>
                     </div>
-  
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-  
-          
+                </a>
+                <a href="https://www.twitch.tv/loud_coringa">
+                    <div class="img-port" style="background-image: url(img/ciencias\ da\ natureza.png);">
+                        <div class="overlay">natureza</div>
+                    </div>
+                </a>
+                <a href="https://www.twitch.tv/loud_coringa">
+                    <div class="img-port" style="background-image: url(img/Linguagens.png);">
+                        <div class="overlay">Linguagens</div>
+                    </div>
+                </a>
+                <a href="https://www.twitch.tv/loud_coringa">
+                    <div class="img-port" style="background-image: url(img/Mat.png);">
+                        <div class="overlay">Matemática</div>
+                    </div>
+                </a>
+                <a href="https://www.twitch.tv/loud_coringa">
+                    <div class="img-port" style="background-image: url(img/tecnologia.png);">
+                        <div class="overlay">tecnologia</div>
+                    </div>
+                </a>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="forms" class="formulario">
+            <div class="interface">
+                <h2 class="Titulo">FALE <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu Email:" required>
+                    <input type="text" name="" id="" placeholder="Seu Seu celular:">
+                    <textarea name="" id="" placeholder="Sua Mensagen" required></textarea>
+                    <div class="btn-inviar"><input type="submit" value="Enviar"></div>
+    
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+
+        </div><!--interface-->
+    </footer>
+
+
 </body>
 </html>
